@@ -1,0 +1,97 @@
+body {
+    overflow-y: inherit;
+    overflow-x: hidden;
+}
+
+.mainContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.background-pattern {
+    background-image: url("../img/pattern.svg");
+}
+
+.py-6 {
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
+}
+
+.form-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1.5rem;
+}
+
+.form-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 0 solid #e6e8e9;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.form-footer>* {
+    margin: 0.375rem;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.bg-rounded-info {
+    background-color: #f0f2f6;
+    border-color: #f0f2f6;
+}
+
+.mt-content {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ml-container {
+    padding-left: 0;
+}
+
+.ml-mt-app {
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+
+.ml-mt-menu {
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+
+.mt-content-comp {
+    margin-top: 1rem;
+}
+
+.h-total-screen {
+    height: 88vh;
+}
+
+.form-check-input {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.bg-header {
+    background-color: #1F365C;
+}
+
+.margin-l-03 {
+    margin-left: -0.3rem !important;
+}
+
+.margin-l-05 {
+    margin-left: -0.5rem !important;
+}
+
+textarea {
+    height: 150px;
+}
